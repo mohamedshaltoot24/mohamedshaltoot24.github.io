@@ -1,0 +1,145 @@
+{
+  "cv": "/assets/files/Mohamed_Shaltoot_Junior_MEP_BIM_Engineer.pdf",
+  "hero": {
+    "status": "Open to MEP BIM and technical office roles",
+    "name": "Mohamed Shaltoot",
+    "role": "Junior MEP BIM Engineer",
+    "role2": "Mechanical Technical Office",
+    "lead": "Mechanical engineer in site technical office on infrastructure projects: shop drawings, submittals and quantities. Alongside my job, I'm building my MEP BIM skills in Revit, modeling HVAC, fire fighting and plumbing systems.",
+    "facts": [
+      { "label": "Discipline", "value": "Mechanical: HVAC, fire fighting, plumbing, infrastructure" },
+      { "label": "Main tools", "value": "Revit MEP · AutoCAD" },
+      { "label": "Currently", "value": "Site Technical Office Engineer, ARBEC" },
+      { "label": "Based in", "value": "Tanta, Egypt" }
+    ]
+  },
+  "about": {
+    "photo": "/assets/img/profile.jpg",
+    "heading": "Working in technical office, building my skills in BIM",
+    "paragraphs": [
+      "I'm a Mechanical Power Engineer (B.Eng., Tanta University, 2024). Since February 2026 I've worked as a Site Technical Office Engineer at ARBEC, on infrastructure projects that include sewage lift stations, artificial lakes, and their drainage and firefighting networks.",
+      "On site I prepare mechanical shop drawings, material submittals, MIRs and IRs for consultant approval, calculate quantities, and follow installation and testing. I bring that experience with shop drawings, quantity take-off and approvals to BIM modeling and coordination work.",
+      "Alongside my job, I'm training in MEP BIM: modeling HVAC, fire fighting and plumbing systems in Revit MEP, coordinating them, and producing sheets and quantity schedules. Two MEP design diplomas back that up."
+    ],
+    "glance": [
+      { "label": "Education", "value": "B.Eng. Mechanical Power, Tanta University" },
+      { "label": "Diplomas", "value": "MEP Design & Technical Office · HVAC Design & Drafting" },
+      { "label": "Military service", "value": "Completed" },
+      { "label": "Languages", "value": "Arabic (native) · English (upper-intermediate)" }
+    ]
+  },
+  "skills": {
+    "intro": "BIM modeling on one side, MEP design and site technical office work on the other.",
+    "cards": [
+      {
+        "color": "bim",
+        "label": "BIM",
+        "title": "Revit MEP",
+        "items": ["3D MEP modeling", "Project templates", "Clash detection and coordination", "Sheets and quantity schedules (BOQ)", "Worksharing"],
+        "tools": ""
+      },
+      {
+        "color": "hvac",
+        "label": "HVAC",
+        "title": "HVAC design",
+        "items": ["DX and chilled water systems", "Cooling load calculations", "Duct and pipe sizing", "Equipment selection and air distribution"],
+        "tools": "Carrier HAP"
+      },
+      {
+        "color": "fire",
+        "label": "Fire fighting",
+        "title": "Fire fighting design",
+        "items": ["NFPA-based design", "Sprinkler systems", "Fire pumps"],
+        "tools": "Elite Fire"
+      },
+      {
+        "color": "plumbing",
+        "label": "Plumbing",
+        "title": "Plumbing design",
+        "items": ["Water supply", "Drainage"],
+        "tools": ""
+      },
+      {
+        "color": "office",
+        "label": "Technical office",
+        "title": "Site technical office",
+        "items": ["Mechanical shop drawings", "Material submittals, MIR and IR", "Quantity surveying", "Payment certificates"],
+        "tools": ""
+      },
+      {
+        "color": "cad",
+        "label": "CAD & office",
+        "title": "Drafting and reporting",
+        "items": ["AutoCAD 2D drafting", "Design and shop drawings", "Excel, Word, PowerPoint"],
+        "tools": ""
+      }
+    ],
+    "software": ["Revit MEP", "AutoCAD", "Carrier HAP", "Elite Fire", "MS Office"]
+  },
+  "experience": {
+    "work": [
+      {
+        "when": "Feb 2026 – Present",
+        "title": "Site Technical Office Engineer (Mechanical)",
+        "org": "ARBEC · 6th of October City",
+        "context": "Infrastructure projects: 4 sewage lift stations and 2 artificial lakes, including drainage and firefighting networks.",
+        "bullets": [
+          "Prepare and update mechanical shop drawings for infrastructure and firefighting systems, and submit them for consultant approval.",
+          "Prepare and submit material submittals, MIRs and IRs to the consultant.",
+          "Calculate material quantities and manage purchase orders and site supplies.",
+          "Supervise installation and testing of drainage and firefighting networks and pumps.",
+          "Coordinate between the site team, management, consultant and employer, and prepare payment certificates for subcontractors and the employer."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "when": "Oct – Nov 2026",
+        "title": "BIM Revit MEP (Essentials & Advanced)",
+        "grade": "",
+        "org": "Udemy · Eng. Mohamed Gamal",
+        "note": "Project templates, 3D MEP modeling, coordination, sheet production, quantity schedules and worksharing.",
+        "certificateFile": "",
+        "certificateLink": ""
+      },
+      {
+        "when": "2023",
+        "title": "MEP Design & Technical Office Diploma",
+        "grade": "89.5%",
+        "org": "ASEC Office, Cairo",
+        "note": "HVAC, fire fighting and plumbing design. AutoCAD, Revit MEP, Carrier HAP, Elite Fire.",
+        "certificateFile": "",
+        "certificateLink": "https://drive.google.com/file/d/1oliOtcL8841jFByDrVtSzj-jbbxhhcI7/view?usp=sharing"
+      },
+      {
+        "when": "2022",
+        "title": "HVAC Design & Drafting Diploma",
+        "grade": "Very Good",
+        "org": "JELECOM, Cairo",
+        "note": "Thermal load estimation, equipment selection, air distribution and 2D shop drawings in AutoCAD.",
+        "certificateFile": "",
+        "certificateLink": "https://drive.google.com/file/d/1ocTgzE35FBA18pSMtWSwQcAROTk8jOi3/view?usp=sharing"
+      },
+      {
+        "when": "2019 – 2024",
+        "title": "B.Eng., Mechanical Power Engineering",
+        "grade": "",
+        "org": "Faculty of Engineering, Tanta University",
+        "note": "Graduation project graded Excellent.",
+        "certificateFile": "",
+        "certificateLink": "https://drive.google.com/file/d/1ou6HOhqiLrvylhhKoj78WxIoWhy8xcnC/view?usp=sharing"
+      }
+    ],
+    "languages": "Arabic (native) · English (upper-intermediate)"
+  },
+  "contact": {
+    "heading": "Open to MEP BIM and technical office roles",
+    "text": "I'm looking for a Junior MEP BIM Engineer or MEP Technical Office role. WhatsApp or a phone call is the fastest way to reach me.",
+    "whatsapp": "+20 121 256 5576",
+    "whatsappMessage": "Hi Mohamed, I saw your portfolio website.",
+    "phone": "+20 100 783 6485",
+    "email": "mohamed.shaltoot24@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mohamed-shaltoot-100954282",
+    "location": "Tanta, Egypt · working in 6th of October City"
+  }
+}

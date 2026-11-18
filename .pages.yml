@@ -1,0 +1,363 @@
+# Pages CMS setup for this site (https://pagescms.org).
+# Sign in at https://app.pagescms.org with your GitHub account and open
+# this repository. You get forms for the projects and the home page, and
+# you can upload images and PDFs without touching any code.
+
+media:
+  - name: images
+    label: Images
+    input: assets/img
+    output: /assets/img
+    extensions: [jpg, jpeg, png, webp, gif]
+    rename: safe
+  - name: files
+    label: Documents (PDF)
+    input: assets/files
+    output: /assets/files
+    extensions: [pdf]
+    rename: safe
+
+content:
+  # ------------------------------------------------------------------
+  - name: projects
+    label: Projects
+    type: file
+    path: content/projects.json
+    format: json
+    fields:
+      - name: projects
+        label: Projects
+        description: "The order here is the order on the home page. Drag to reorder."
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: id
+            label: Page name (id)
+            description: "Short English name: lowercase letters, numbers and dashes, no spaces (e.g. basement-car-park). It becomes the page link: project.html?id=basement-car-park"
+            type: string
+            required: true
+            pattern: "^[a-z0-9-]+$"
+          - name: status
+            label: Status
+            description: "done = the project has its own page. in-progress = a card marked In progress, no page yet."
+            type: select
+            options:
+              values: [done, in-progress]
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: shortTitle
+            label: Short title
+            description: "Used in the breadcrumb and the next/previous links."
+            type: string
+          - name: meta
+            label: Line under the title
+            description: "e.g. Graduation project · Tanta University · 2024"
+            type: string
+          - name: tags
+            label: Tags
+            description: "Words like HVAC, Fire, Plumbing or Revit get their system color automatically."
+            type: string
+            list: true
+          - name: summary
+            label: Card text
+            description: "One or two short sentences shown on the home page card."
+            type: text
+          - name: lead
+            label: Intro paragraph
+            description: "Shown at the top of the project page."
+            type: text
+          - name: cover
+            label: Cover image
+            description: "Shown on the card and at the top of the project page."
+            type: image
+            options:
+              media: images
+          - name: coverCaption
+            label: Cover caption
+            type: string
+          - name: facts
+            label: Title block
+            description: "Label and value pairs, like a drawing title block. 3 or 6 fill the table neatly."
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: value
+                label: Value
+                type: string
+          - name: sections
+            label: Text sections
+            type: object
+            list:
+              collapsible: true
+            fields:
+              - name: title
+                label: Section title
+                type: string
+              - name: text
+                label: Paragraph
+                description: "Leave an empty line between paragraphs."
+                type: text
+              - name: points
+                label: Bullet points
+                type: string
+                list: true
+          - name: documents
+            label: Documents (PDF)
+            description: "Drawing sets, reports, calculation sheets. Each one shows as a download card."
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Name shown on the site
+                type: string
+              - name: file
+                label: PDF file
+                type: file
+                options:
+                  media: files
+          - name: links
+            label: Links
+            description: "Outside links, e.g. a certificate on Google Drive or a video."
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Button text
+                type: string
+              - name: url
+                label: Link (https://...)
+                type: string
+          - name: gallery
+            label: Gallery
+            description: "Plans, sections, 3D views, schedules."
+            type: object
+            list:
+              collapsible: true
+            fields:
+              - name: image
+                label: Image
+                type: image
+                options:
+                  media: images
+              - name: caption
+                label: Caption
+                type: string
+              - name: wide
+                label: Full width
+                description: "Turn on for wide images like long sections or sheets."
+                type: boolean
+
+  # ------------------------------------------------------------------
+  - name: site
+    label: Home page
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: cv
+        label: CV (PDF)
+        description: "The file behind every Download CV button."
+        type: file
+        options:
+          media: files
+
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - name: status
+            label: Status line
+            type: string
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Job title
+            type: string
+          - name: role2
+            label: Second title
+            type: string
+          - name: lead
+            label: Short intro
+            type: text
+          - name: facts
+            label: Facts box
+            description: "Label and value pairs, e.g. Discipline, Main tools."
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: value
+                label: Value
+                type: string
+
+      - name: about
+        label: About
+        type: object
+        fields:
+          - name: photo
+            label: Photo
+            type: image
+            options:
+              media: images
+          - name: heading
+            label: Heading
+            type: string
+          - name: paragraphs
+            label: Paragraphs
+            type: text
+            list: true
+          - name: glance
+            label: At a glance
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: value
+                label: Value
+                type: string
+
+      - name: skills
+        label: Skills
+        type: object
+        fields:
+          - name: intro
+            label: Intro line
+            type: text
+          - name: cards
+            label: Skill cards
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: color
+                label: Color
+                type: select
+                options:
+                  values: [bim, hvac, fire, plumbing, office, cad]
+              - name: label
+                label: Small label
+                type: string
+              - name: title
+                label: Title
+                type: string
+              - name: items
+                label: Points
+                type: string
+                list: true
+              - name: tools
+                label: Software line
+                type: string
+          - name: software
+            label: Software chips
+            type: string
+            list: true
+
+      - name: experience
+        label: Experience
+        type: object
+        fields:
+          - name: work
+            label: Work
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: when
+                label: Dates
+                description: "e.g. Feb 2026 – Present"
+                type: string
+              - name: title
+                label: Job title
+                type: string
+              - name: org
+                label: Company · place
+                type: string
+              - name: context
+                label: Projects line
+                type: text
+              - name: bullets
+                label: What I do
+                type: string
+                list: true
+          - name: education
+            label: Education and training
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: when
+                label: Dates
+                type: string
+              - name: title
+                label: Title
+                type: string
+              - name: grade
+                label: Grade
+                type: string
+              - name: org
+                label: Place
+                type: string
+              - name: note
+                label: Note
+                type: text
+              - name: certificateFile
+                label: Certificate (PDF upload)
+                description: "Upload the PDF here, or put a Google Drive link below."
+                type: file
+                options:
+                  media: files
+              - name: certificateLink
+                label: Certificate (link)
+                type: string
+          - name: languages
+            label: Languages
+            type: string
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: whatsapp
+            label: WhatsApp number
+            description: "With country code, e.g. +20 121 256 5576"
+            type: string
+          - name: whatsappMessage
+            label: WhatsApp first message
+            type: string
+          - name: phone
+            label: Phone number for calls
+            type: string
+          - name: email
+            label: Email
+            type: string
+          - name: linkedin
+            label: LinkedIn link
+            type: string
+          - name: location
+            label: Location
+            type: string

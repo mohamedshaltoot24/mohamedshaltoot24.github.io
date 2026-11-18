@@ -1,0 +1,91 @@
+{
+  "projects": [
+    {
+      "id": "electronic-exams",
+      "status": "done",
+      "title": "HVAC design for the Electronic Exams Building",
+      "shortTitle": "Electronic Exams Building",
+      "meta": "Graduation project · Tanta University · 2024",
+      "tags": ["HVAC", "Revit", "Graduation project"],
+      "summary": "Designed the building's HVAC system and modeled it in Revit. Graded Excellent.",
+      "lead": "My graduation project at Tanta University. I designed the HVAC system for the building and modeled it in Revit. The project was graded Excellent.",
+      "cover": "/assets/img/projects/electronic-exams/cover.webp",
+      "coverCaption": "3D view of the HVAC model in Revit",
+      "facts": [
+        { "label": "Project", "value": "Electronic Exams Building" },
+        { "label": "Type", "value": "Graduation project" },
+        { "label": "Institution", "value": "Faculty of Engineering, Tanta University" },
+        { "label": "Discipline", "value": "HVAC (mechanical)" },
+        { "label": "Software", "value": "Revit" },
+        { "label": "Year · result", "value": "2024 · Excellent" }
+      ],
+      "sections": [
+        {
+          "title": "What I did",
+          "text": "",
+          "points": [
+            "Designed the HVAC system for the Electronic Exams Building.",
+            "Modeled the HVAC system in Revit."
+          ]
+        }
+      ],
+      "documents": [],
+      "links": [],
+      "gallery": []
+    },
+    {
+      "id": "jelecom",
+      "status": "done",
+      "title": "Chilled water HVAC for an administrative building and a primary school",
+      "shortTitle": "Chilled water HVAC",
+      "meta": "JELECOM diploma · 2022",
+      "tags": ["Chilled water", "AutoCAD", "Diploma project"],
+      "summary": "Thermal loads, equipment selection and air distribution for two buildings, with 2D HVAC shop drawings in AutoCAD.",
+      "lead": "Design work from my HVAC Design & Drafting diploma at JELECOM: chilled water HVAC systems for two buildings, from thermal loads to AutoCAD shop drawings.",
+      "cover": "",
+      "coverCaption": "",
+      "facts": [
+        { "label": "Buildings", "value": "Administrative building · primary school" },
+        { "label": "Type", "value": "Diploma project" },
+        { "label": "Institution", "value": "JELECOM, Cairo" },
+        { "label": "System", "value": "Chilled water HVAC" },
+        { "label": "Software", "value": "AutoCAD" },
+        { "label": "Year · diploma grade", "value": "2022 · Very Good" }
+      ],
+      "sections": [
+        {
+          "title": "What I did",
+          "text": "",
+          "points": [
+            "Estimated the thermal loads for both buildings.",
+            "Selected the HVAC equipment.",
+            "Designed the air distribution.",
+            "Produced the 2D HVAC shop drawings in AutoCAD."
+          ]
+        }
+      ],
+      "documents": [],
+      "links": [
+        { "label": "View the diploma certificate", "url": "https://drive.google.com/file/d/1ocTgzE35FBA18pSMtWSwQcAROTk8jOi3/view?usp=sharing" }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "mep-bim",
+      "status": "in-progress",
+      "title": "Full MEP BIM model",
+      "shortTitle": "Full MEP BIM model",
+      "meta": "Self-study project · Revit MEP",
+      "tags": ["HVAC", "Fire fighting", "Plumbing", "Coordination"],
+      "summary": "A complete Revit MEP model with HVAC, sprinklers and plumbing, clash detection and a full sheet set.",
+      "lead": "",
+      "cover": "",
+      "coverCaption": "",
+      "facts": [],
+      "sections": [],
+      "documents": [],
+      "links": [],
+      "gallery": []
+    }
+  ]
+}

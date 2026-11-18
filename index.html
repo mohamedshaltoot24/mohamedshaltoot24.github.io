@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohamed Shaltoot · Junior MEP BIM Engineer</title>
+  <meta name="description" content="Portfolio of Mohamed Shaltoot, mechanical engineer in site technical office, building MEP BIM skills in Revit MEP: HVAC, fire fighting and plumbing.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohamed Shaltoot · Junior MEP BIM Engineer">
+  <meta property="og:description" content="Mechanical technical office engineer on infrastructure projects, building MEP BIM skills in Revit: HVAC, fire fighting and plumbing.">
+  <meta name="theme-color" content="#0E2240">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <!--
+    The text, images and PDFs on this page come from content/site.json
+    and content/projects.json. Edit them in Pages CMS (see README.md).
+  -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Mohamed Shaltoot, back to top">
+        <span class="brand-mark" aria-hidden="true">MS</span>
+        <span class="brand-name">Mohamed Shaltoot</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <nav id="site-nav" class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary btn-sm" href="assets/files/Mohamed_Shaltoot_Junior_MEP_BIM_Engineer.pdf" data-cv download>Download CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero blueprint" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy" id="hero-copy"></div>
+
+        <figure class="sheet">
+          <svg viewBox="0 0 520 330" role="img" aria-label="Simplified section through a ceiling void: a supply air duct, chilled water pipes, a fire fighting main with a sprinkler drop, a drainage pipe and a cable tray above the false ceiling.">
+            <defs>
+              <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <line class="d-hatch" x1="0" y1="0" x2="0" y2="7"/>
+              </pattern>
+            </defs>
+            <rect class="d-frame" x="10" y="10" width="500" height="310" rx="4"/>
+
+            <!-- Slab and drop beam -->
+            <path class="d-conc" d="M24 28 H496 V54 H388 V132 H332 V54 H24 Z"/>
+
+            <!-- Hangers and supports -->
+            <g class="d-rod">
+              <line x1="52" y1="54" x2="52" y2="164"/>
+              <line x1="244" y1="54" x2="244" y2="164"/>
+              <line x1="46" y1="164" x2="250" y2="164"/>
+              <line x1="256" y1="54" x2="256" y2="124"/>
+              <line x1="320" y1="54" x2="320" y2="124"/>
+              <line x1="252" y1="124" x2="324" y2="124"/>
+              <line x1="360" y1="132" x2="360" y2="145"/>
+              <line x1="448" y1="54" x2="448" y2="106"/>
+              <line x1="134" y1="164" x2="134" y2="190"/>
+              <line x1="226" y1="164" x2="226" y2="190"/>
+            </g>
+
+            <!-- HVAC: supply duct, flexible neck, diffuser -->
+            <rect class="d-hvac" x="58" y="84" width="180" height="78"/>
+            <text class="d-tag d-tag-hvac" x="148" y="127" text-anchor="middle">SA DUCT</text>
+            <rect class="d-flex" x="90" y="162" width="18" height="96"/>
+            <polygon class="d-hvac" points="74,268 124,268 116,258 82,258"/>
+
+            <!-- HVAC: chilled water supply / return -->
+            <circle class="d-ins" cx="272" cy="109" r="15"/>
+            <circle class="d-ins" cx="304" cy="109" r="15"/>
+            <circle class="d-hvac" cx="272" cy="109" r="11"/>
+            <circle class="d-hvac" cx="304" cy="109" r="11"/>
+            <text class="d-tag d-tag-hvac" x="288" y="146" text-anchor="middle">CHWS / CHWR</text>
+
+            <!-- Electrical: cable tray -->
+            <rect class="d-elec" x="128" y="190" width="104" height="12"/>
+            <text class="d-tag" x="180" y="220" text-anchor="middle">CABLE TRAY</text>
+
+            <!-- Fire fighting: main and pendent sprinkler -->
+            <circle class="d-fire" cx="360" cy="158" r="13"/>
+            <line class="d-fire-line" x1="360" y1="171" x2="360" y2="270"/>
+            <polygon class="d-fire" points="354,270 366,270 360,278"/>
+            <line class="d-fire-line" x1="352" y1="281" x2="368" y2="281"/>
+            <text class="d-tag d-tag-fire" x="382" y="162">FF MAIN</text>
+
+            <!-- Plumbing: drainage -->
+            <circle class="d-plumb" cx="448" cy="118" r="12"/>
+            <text class="d-tag d-tag-plumb" x="448" y="146" text-anchor="middle">DRAIN</text>
+
+            <!-- Ceiling void dimension -->
+            <g class="d-dim">
+              <line x1="482" y1="54" x2="482" y2="268"/>
+              <line x1="477" y1="59" x2="487" y2="49"/>
+              <line x1="477" y1="273" x2="487" y2="263"/>
+            </g>
+            <text class="d-tag" x="474" y="215" text-anchor="end">CEILING VOID</text>
+
+            <!-- False ceiling -->
+            <line class="d-ceil" x1="24" y1="268" x2="496" y2="268"/>
+            <text class="d-tag" x="496" y="300" text-anchor="end">FALSE CEILING</text>
+          </svg>
+          <figcaption class="sheet-foot">
+            <span>Section A-A · Typical ceiling void (illustration)</span>
+            <span class="legend">
+              <span class="sw-hvac">HVAC</span>
+              <span class="sw-fire">Fire</span>
+              <span class="sw-plumb">Plumbing</span>
+              <span class="sw-elec">Electrical</span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="media portrait" id="about-photo" data-placeholder="MS"></div>
+        <div class="about-text">
+          <p class="section-label">01 / About</p>
+          <div id="about-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">02 / Skills</p>
+          <h2>What I work on</h2>
+          <p id="skills-intro"></p>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+        <div class="software" id="software" aria-label="Software"></div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">03 / Projects</p>
+          <h2>Design and BIM projects</h2>
+          <p>Each project page covers the scope, the tools, and the drawings and model views.</p>
+        </div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">04 / Experience</p>
+          <h2>Experience and training</h2>
+        </div>
+        <div class="exp-grid">
+          <div>
+            <h3 class="col-title">Work</h3>
+            <ol class="timeline" id="work-list"></ol>
+          </div>
+          <div>
+            <h3 class="col-title">Education and training</h3>
+            <ol class="timeline" id="edu-list"></ol>
+            <p class="languages" id="languages" hidden></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-panel blueprint">
+          <div id="contact-copy"></div>
+          <ul class="contact-list" id="contact-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span data-year>2026</span> Mohamed Shaltoot</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
