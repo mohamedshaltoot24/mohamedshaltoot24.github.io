@@ -3,6 +3,10 @@
 - **الموقع:** https://mohamedshaltoot24.github.io
 - **ملفات الموقع على GitHub:** https://github.com/mohamedshaltoot24/mohamedshaltoot24.github.io
 - **لوحة التحكم:** https://app.pagescms.org
+  - Home page (الكلام + الـ CV): https://app.pagescms.org/mohamedshaltoot24/mohamedshaltoot24.github.io/main/file/site
+  - Projects: https://app.pagescms.org/mohamedshaltoot24/mohamedshaltoot24.github.io/main/file/projects
+  - Images: https://app.pagescms.org/mohamedshaltoot24/mohamedshaltoot24.github.io/main/media/images
+  - Documents (PDF): https://app.pagescms.org/mohamedshaltoot24/mohamedshaltoot24.github.io/main/media/files
 
 موقع static على GitHub Pages، وبيتعدّل من لوحة تحكم فيها forms (Pages CMS).
 تقدر تضيف مشاريع وصور وPDF وخانات جديدة من المتصفح، من غير ما تلمس أي كود.
