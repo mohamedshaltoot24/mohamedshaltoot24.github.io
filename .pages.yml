@@ -27,7 +27,6 @@ content:
     fields:
       - name: projects
         label: Projects
-        description: "The order here is the order on the home page. Drag to reorder."
         type: object
         list:
           collapsible:
