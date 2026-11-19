@@ -58,7 +58,6 @@
       "sections": [
         {
           "title": "What I did",
-          "text": "",
           "points": [
             "Prepared the pump room shop drawings for Lake 06: a general layout and two room sections.",
             "Showed the pump room position, coordinates and connections to the lake on the general layout.",
@@ -77,9 +76,7 @@
           "label": "Lake 06 pump room: sections",
           "file": "/assets/files/sodic-lake-06-pump-room-sections.pdf"
         }
-      ],
-      "links": [],
-      "gallery": []
+      ]
     },
     {
       "id": "sodic-lift-stations",
@@ -139,16 +136,14 @@
       "sections": [
         {
           "title": "What I did",
-          "text": "",
           "points": [
-            "Prepared the MEP shop drawing for pump station PS-01: pumps, guide rails, basket screen, valve chamber and the bill of pipes and fittings.",
-            "Prepared the overall drawing of Lift Station #2 with the chamber details, manhole levels, pipe slopes and coordinates.",
+            "Prepared the MEP shop drawing for pump stations ((PS-01)(PS-02)(PS-03)(PS-04): pumps, guide rails, basket screen, valve chambers and the bill of pipes and fittings.",
+            "Prepared the overall drawing of Lift Stations #1,2,3,4 with the chamber details, manhole levels, pipe slopes and coordinates.",
             "Submitted the drawings to the consultant and got them approved with comments (Code B)."
           ]
         },
         {
           "title": "Inside the pump station (PS-01)",
-          "text": "",
           "points": [
             "Submersible sewage pumps on guide rails with lifting chains, and a galvanized steel basket screen on the inlet.",
             "Gate valves, non-return valves and dismantling joints on each discharge line.",
@@ -166,9 +161,7 @@
           "label": "Pump station PS-01: MEP works",
           "file": "/assets/files/sodic-pump-station-ps-01-mep-works.pdf"
         }
-      ],
-      "links": [],
-      "gallery": []
+      ]
     },
     {
       "id": "electronic-exams",
@@ -185,6 +178,7 @@
       "lead": "My graduation project at Tanta University. I designed the HVAC system for the building and modeled it in Revit. The project was graded Excellent.",
       "cover": "/assets/img/projects/electronic-exams/cover.webp",
       "coverCaption": "3D view of the HVAC model in Revit",
+      "coverContain": false,
       "facts": [
         {
           "label": "Project",
@@ -214,16 +208,12 @@
       "sections": [
         {
           "title": "What I did",
-          "text": "",
           "points": [
             "Designed the HVAC system for the Electronic Exams Building.",
             "Modeled the HVAC system in Revit."
           ]
         }
-      ],
-      "documents": [],
-      "links": [],
-      "gallery": []
+      ]
     },
     {
       "id": "jelecom",
@@ -238,8 +228,7 @@
       ],
       "summary": "Thermal loads, equipment selection and air distribution for two buildings, with 2D HVAC shop drawings in AutoCAD.",
       "lead": "Design work from my HVAC Design & Drafting diploma at JELECOM: chilled water HVAC systems for two buildings, from thermal loads to AutoCAD shop drawings.",
-      "cover": "",
-      "coverCaption": "",
+      "coverContain": false,
       "facts": [
         {
           "label": "Buildings",
@@ -269,7 +258,6 @@
       "sections": [
         {
           "title": "What I did",
-          "text": "",
           "points": [
             "Estimated the thermal loads for both buildings.",
             "Selected the HVAC equipment.",
@@ -278,14 +266,12 @@
           ]
         }
       ],
-      "documents": [],
       "links": [
         {
           "label": "View the diploma certificate",
           "url": "https://drive.google.com/file/d/1ocTgzE35FBA18pSMtWSwQcAROTk8jOi3/view?usp=sharing"
         }
-      ],
-      "gallery": []
+      ]
     },
     {
       "id": "mep-bim",
@@ -300,14 +286,7 @@
         "Coordination"
       ],
       "summary": "A complete Revit MEP model with HVAC, sprinklers and plumbing, clash detection and a full sheet set.",
-      "lead": "",
-      "cover": "",
-      "coverCaption": "",
-      "facts": [],
-      "sections": [],
-      "documents": [],
-      "links": [],
-      "gallery": []
+      "coverContain": false
     }
   ]
 }
