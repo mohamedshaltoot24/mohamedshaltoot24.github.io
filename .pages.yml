@@ -79,6 +79,10 @@ content:
           - name: coverCaption
             label: Cover caption
             type: string
+          - name: coverContain
+            label: Show the whole cover image
+            description: "Turn on for tall images (like a section) so the project page shows all of it instead of cropping it."
+            type: boolean
           - name: facts
             label: Title block
             description: "Label and value pairs, like a drawing title block. 3 or 6 fill the table neatly."

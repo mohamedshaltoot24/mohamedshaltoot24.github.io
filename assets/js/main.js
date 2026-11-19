@@ -266,7 +266,7 @@
 
     var cover = asset(p.cover)
       ? '<figure class="shot shot--wide">' +
-          mediaHtml(p.cover, p.coverCaption || p.title, { optional: true }) +
+          mediaHtml(p.cover, p.coverCaption || p.title, { optional: true, contain: !!p.coverContain }) +
           (p.coverCaption ? "<figcaption>" + esc(p.coverCaption) + "</figcaption>" : "") +
         "</figure>"
       : "";

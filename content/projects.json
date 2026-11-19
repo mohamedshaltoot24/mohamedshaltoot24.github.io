@@ -1,23 +1,190 @@
 {
   "projects": [
     {
+      "id": "sodic-lakes",
+      "status": "done",
+      "title": "Pump room shop drawings for the artificial lakes at The Estates, SODIC",
+      "shortTitle": "SODIC Lakes · The Estates",
+      "meta": "ARBEC · SODIC The Estates, Sheikh Zayed · 2026",
+      "tags": [
+        "Infrastructure",
+        "Lake pump room",
+        "Shop drawings",
+        "AutoCAD"
+      ],
+      "summary": "Mechanical shop drawings for the Lake 06 pump room at SODIC's The Estates: general layout and room sections, prepared for consultant approval.",
+      "lead": "Site technical office work at ARBEC on the artificial lakes of SODIC's The Estates compound in Sheikh Zayed. I prepared the mechanical shop drawings for the Lake 06 pump room, from the general layout to the room sections, and submitted them for consultant approval.",
+      "cover": "/assets/img/projects/sodic-lakes/cover.jpg",
+      "coverCaption": "Illustration: a landscaped artificial lake",
+      "coverContain": false,
+      "facts": [
+        {
+          "label": "Client",
+          "value": "SODIC (Sixth of October Development & Investment)"
+        },
+        {
+          "label": "Contractor",
+          "value": "ARBEC"
+        },
+        {
+          "label": "Location",
+          "value": "The Estates, Sheikh Zayed, Giza"
+        },
+        {
+          "label": "Lake 06",
+          "value": "Avg. area 104.9 m² · depth 0.35 m"
+        },
+        {
+          "label": "Drawing",
+          "value": "Pump room shop drawing · scale 1:100"
+        },
+        {
+          "label": "Software · date",
+          "value": "AutoCAD · March 2026"
+        }
+      ],
+      "sections": [
+        {
+          "title": "What I did",
+          "text": "",
+          "points": [
+            "Prepared the pump room shop drawings for Lake 06: a general layout and two room sections.",
+            "Showed the pump room position, coordinates and connections to the lake on the general layout.",
+            "Detailed the equipment and pipe levels inside the pump room in sections 1-1 and 2-2.",
+            "Submitted the drawings to the consultant for approval."
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "label": "Lake 06 pump room: general layout",
+          "file": "/assets/files/sodic-lake-06-pump-room-general-layout.pdf"
+        },
+        {
+          "label": "Lake 06 pump room: sections",
+          "file": "/assets/files/sodic-lake-06-pump-room-sections.pdf"
+        }
+      ],
+      "links": [],
+      "gallery": []
+    },
+    {
+      "id": "sodic-lift-stations",
+      "status": "done",
+      "title": "Sewage lift stations at The Estates, SODIC",
+      "shortTitle": "SODIC Lift Stations · The Estates",
+      "meta": "ARBEC · SODIC The Estates, Sheikh Zayed · 2026",
+      "tags": [
+        "Infrastructure",
+        "Sewage lift station",
+        "Shop drawings",
+        "AutoCAD"
+      ],
+      "summary": "MEP shop drawings for sewage lift stations: submersible pumps, HDPE pipework, valve chambers and manhole connections.",
+      "lead": "Site technical office work at ARBEC on the sewage lift stations of SODIC's The Estates compound in Sheikh Zayed. I prepared the MEP shop drawings for the pump stations, covering the wet well, the valve chamber and the connections to the sewer manholes.",
+      "cover": "/assets/img/projects/sodic-lift-stations/cover.jpg",
+      "coverCaption": "Illustration: section through a sewage lift station",
+      "coverContain": true,
+      "facts": [
+        {
+          "label": "Client",
+          "value": "SODIC (Sixth of October Development & Investment)"
+        },
+        {
+          "label": "Contractor",
+          "value": "ARBEC"
+        },
+        {
+          "label": "Location",
+          "value": "The Estates, Sheikh Zayed, Giza"
+        },
+        {
+          "label": "Pumps (PS-01)",
+          "value": "3 submersible (2 duty + 1 standby) · Q = 16 L/s · H = 20 m"
+        },
+        {
+          "label": "Pipework",
+          "value": "HDPE PN10 / PN16 · Ø200 uPVC inlet"
+        },
+        {
+          "label": "Software · date",
+          "value": "AutoCAD · July 2026"
+        }
+      ],
+      "sections": [
+        {
+          "title": "What I did",
+          "text": "",
+          "points": [
+            "Prepared the MEP shop drawing for pump station PS-01: pumps, guide rails, basket screen, valve chamber and the bill of pipes and fittings.",
+            "Prepared the overall drawing of Lift Station #2 with the chamber details, manhole levels, pipe slopes and coordinates.",
+            "Submitted the drawings to the consultant for approval."
+          ]
+        },
+        {
+          "title": "Inside the pump station (PS-01)",
+          "text": "",
+          "points": [
+            "Submersible sewage pumps on guide rails with lifting chains, and a galvanized steel basket screen on the inlet.",
+            "Gate valves, non-return valves and dismantling joints on each discharge line.",
+            "Surge anticipating valve and a non-slam air valve on the rising main.",
+            "Ø200 uPVC line to the odor control system, and a stainless steel 316 ladder."
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "label": "Lift Station #2: overall drawing and chamber details",
+          "file": "/assets/files/sodic-lift-station-2-overall-and-chamber-details.pdf"
+        },
+        {
+          "label": "Pump station PS-01: MEP works",
+          "file": "/assets/files/sodic-pump-station-ps-01-mep-works.pdf"
+        }
+      ],
+      "links": [],
+      "gallery": []
+    },
+    {
       "id": "electronic-exams",
       "status": "done",
       "title": "HVAC design for the Electronic Exams Building",
       "shortTitle": "Electronic Exams Building",
       "meta": "Graduation project · Tanta University · 2024",
-      "tags": ["HVAC", "Revit", "Graduation project"],
+      "tags": [
+        "HVAC",
+        "Revit",
+        "Graduation project"
+      ],
       "summary": "Designed the building's HVAC system and modeled it in Revit. Graded Excellent.",
       "lead": "My graduation project at Tanta University. I designed the HVAC system for the building and modeled it in Revit. The project was graded Excellent.",
       "cover": "/assets/img/projects/electronic-exams/cover.webp",
       "coverCaption": "3D view of the HVAC model in Revit",
       "facts": [
-        { "label": "Project", "value": "Electronic Exams Building" },
-        { "label": "Type", "value": "Graduation project" },
-        { "label": "Institution", "value": "Faculty of Engineering, Tanta University" },
-        { "label": "Discipline", "value": "HVAC (mechanical)" },
-        { "label": "Software", "value": "Revit" },
-        { "label": "Year · result", "value": "2024 · Excellent" }
+        {
+          "label": "Project",
+          "value": "Electronic Exams Building"
+        },
+        {
+          "label": "Type",
+          "value": "Graduation project"
+        },
+        {
+          "label": "Institution",
+          "value": "Faculty of Engineering, Tanta University"
+        },
+        {
+          "label": "Discipline",
+          "value": "HVAC (mechanical)"
+        },
+        {
+          "label": "Software",
+          "value": "Revit"
+        },
+        {
+          "label": "Year · result",
+          "value": "2024 · Excellent"
+        }
       ],
       "sections": [
         {
@@ -39,18 +206,40 @@
       "title": "Chilled water HVAC for an administrative building and a primary school",
       "shortTitle": "Chilled water HVAC",
       "meta": "JELECOM diploma · 2022",
-      "tags": ["Chilled water", "AutoCAD", "Diploma project"],
+      "tags": [
+        "Chilled water",
+        "AutoCAD",
+        "Diploma project"
+      ],
       "summary": "Thermal loads, equipment selection and air distribution for two buildings, with 2D HVAC shop drawings in AutoCAD.",
       "lead": "Design work from my HVAC Design & Drafting diploma at JELECOM: chilled water HVAC systems for two buildings, from thermal loads to AutoCAD shop drawings.",
       "cover": "",
       "coverCaption": "",
       "facts": [
-        { "label": "Buildings", "value": "Administrative building · primary school" },
-        { "label": "Type", "value": "Diploma project" },
-        { "label": "Institution", "value": "JELECOM, Cairo" },
-        { "label": "System", "value": "Chilled water HVAC" },
-        { "label": "Software", "value": "AutoCAD" },
-        { "label": "Year · diploma grade", "value": "2022 · Very Good" }
+        {
+          "label": "Buildings",
+          "value": "Administrative building · primary school"
+        },
+        {
+          "label": "Type",
+          "value": "Diploma project"
+        },
+        {
+          "label": "Institution",
+          "value": "JELECOM, Cairo"
+        },
+        {
+          "label": "System",
+          "value": "Chilled water HVAC"
+        },
+        {
+          "label": "Software",
+          "value": "AutoCAD"
+        },
+        {
+          "label": "Year · diploma grade",
+          "value": "2022 · Very Good"
+        }
       ],
       "sections": [
         {
@@ -66,7 +255,10 @@
       ],
       "documents": [],
       "links": [
-        { "label": "View the diploma certificate", "url": "https://drive.google.com/file/d/1ocTgzE35FBA18pSMtWSwQcAROTk8jOi3/view?usp=sharing" }
+        {
+          "label": "View the diploma certificate",
+          "url": "https://drive.google.com/file/d/1ocTgzE35FBA18pSMtWSwQcAROTk8jOi3/view?usp=sharing"
+        }
       ],
       "gallery": []
     },
@@ -76,7 +268,12 @@
       "title": "Full MEP BIM model",
       "shortTitle": "Full MEP BIM model",
       "meta": "Self-study project · Revit MEP",
-      "tags": ["HVAC", "Fire fighting", "Plumbing", "Coordination"],
+      "tags": [
+        "HVAC",
+        "Fire fighting",
+        "Plumbing",
+        "Coordination"
+      ],
       "summary": "A complete Revit MEP model with HVAC, sprinklers and plumbing, clash detection and a full sheet set.",
       "lead": "",
       "cover": "",
