@@ -12,8 +12,8 @@
         "Shop drawings",
         "AutoCAD"
       ],
-      "summary": "Mechanical shop drawings for the Lake 06 pump room at SODIC's The Estates: general layout and room sections, prepared for consultant approval.",
-      "lead": "Site technical office work at ARBEC on the artificial lakes of SODIC's The Estates compound in Sheikh Zayed. I prepared the mechanical shop drawings for the Lake 06 pump room, from the general layout to the room sections, and submitted them for consultant approval.",
+      "summary": "Pump room shop drawings and site supervision for the two artificial lakes at SODIC's The Estates. Drawings approved by the consultant (Code B).",
+      "lead": "Site technical office work at ARBEC on the two artificial lakes of SODIC's The Estates compound in Sheikh Zayed. I prepared the mechanical shop drawings for the lake pump rooms, got them approved by the consultant, and supervised the installation of the mechanical works on site.",
       "cover": "/assets/img/projects/sodic-lakes/cover.jpg",
       "coverCaption": "Illustration: a landscaped artificial lake",
       "coverContain": false,
@@ -31,6 +31,10 @@
           "value": "The Estates, Sheikh Zayed, Giza"
         },
         {
+          "label": "Scope",
+          "value": "2 artificial lakes with their pump rooms"
+        },
+        {
           "label": "Lake 06",
           "value": "Avg. area 104.9 m² · depth 0.35 m"
         },
@@ -39,8 +43,16 @@
           "value": "Pump room shop drawing · scale 1:100"
         },
         {
+          "label": "Consultant approval",
+          "value": "Code B · approved with comments"
+        },
+        {
           "label": "Software · date",
           "value": "AutoCAD · March 2026"
+        },
+        {
+          "label": "My role",
+          "value": "Site technical office engineer (mechanical)"
         }
       ],
       "sections": [
@@ -51,7 +63,8 @@
             "Prepared the pump room shop drawings for Lake 06: a general layout and two room sections.",
             "Showed the pump room position, coordinates and connections to the lake on the general layout.",
             "Detailed the equipment and pipe levels inside the pump room in sections 1-1 and 2-2.",
-            "Submitted the drawings to the consultant for approval."
+            "Submitted the drawings to the consultant and got them approved with comments (Code B).",
+            "Supervised the installation of the mechanical works in the lake pump rooms on site."
           ]
         }
       ],
@@ -80,8 +93,8 @@
         "Shop drawings",
         "AutoCAD"
       ],
-      "summary": "MEP shop drawings for sewage lift stations: submersible pumps, HDPE pipework, valve chambers and manhole connections.",
-      "lead": "Site technical office work at ARBEC on the sewage lift stations of SODIC's The Estates compound in Sheikh Zayed. I prepared the MEP shop drawings for the pump stations, covering the wet well, the valve chamber and the connections to the sewer manholes.",
+      "summary": "MEP shop drawings for the four sewage lift stations at SODIC's The Estates: submersible pumps, HDPE pipework, valve chambers and manhole connections. Approved by the consultant (Code B).",
+      "lead": "Site technical office work at ARBEC on the four sewage lift stations of SODIC's The Estates compound in Sheikh Zayed. I prepared the MEP shop drawings for the pump stations, covering the wet well, the valve chamber and the connections to the sewer manholes, and got them approved by the consultant.",
       "cover": "/assets/img/projects/sodic-lift-stations/cover.jpg",
       "coverCaption": "Illustration: section through a sewage lift station",
       "coverContain": true,
@@ -99,6 +112,10 @@
           "value": "The Estates, Sheikh Zayed, Giza"
         },
         {
+          "label": "Scope",
+          "value": "4 sewage lift stations"
+        },
+        {
           "label": "Pumps (PS-01)",
           "value": "3 submersible (2 duty + 1 standby) · Q = 16 L/s · H = 20 m"
         },
@@ -107,8 +124,16 @@
           "value": "HDPE PN10 / PN16 · Ø200 uPVC inlet"
         },
         {
+          "label": "Consultant approval",
+          "value": "Code B · approved with comments"
+        },
+        {
           "label": "Software · date",
           "value": "AutoCAD · July 2026"
+        },
+        {
+          "label": "My role",
+          "value": "Site technical office engineer (mechanical)"
         }
       ],
       "sections": [
@@ -118,7 +143,7 @@
           "points": [
             "Prepared the MEP shop drawing for pump station PS-01: pumps, guide rails, basket screen, valve chamber and the bill of pipes and fittings.",
             "Prepared the overall drawing of Lift Station #2 with the chamber details, manhole levels, pipe slopes and coordinates.",
-            "Submitted the drawings to the consultant for approval."
+            "Submitted the drawings to the consultant and got them approved with comments (Code B)."
           ]
         },
         {
